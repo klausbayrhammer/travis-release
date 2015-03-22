@@ -3,7 +3,7 @@ deploy:
   provider: releases
   api_key:
     secure: S657590Mqvf4iHEELLKvU549lLaYFDk8NHkLRUtnSU7KWkOFuoNwHgQYttxuRDMZql5ChpSZlKcWOQGkLY6Lm1fAXO5ptfFxc9b+CGF0BM7MfmKxBOt0gKXbseOtUFlW/8ceC07E/aGoJ0vZBS8O9gAuO0LgUFOubGKC9aAcBU8=
-  file: target\test-travis-1.0-SNAPSHOT.jar
+  file: target/test-travis-1.0-SNAPSHOT.jar
   skip_cleanup: true
   on:
     tags: true
